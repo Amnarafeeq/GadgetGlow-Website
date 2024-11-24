@@ -26,7 +26,7 @@ const SingleWatchDetail = async ({ params }: { params: { id: string } }) => {
         </p>
         <h1>
           {" "}
-          <span className="font-bold">Modal: </span> {res.title}
+          <span className="font-bold">Name: </span> {res.title}
         </h1>
         <p className="mr-24"> {res.description}</p>
 
